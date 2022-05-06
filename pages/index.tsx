@@ -9,7 +9,15 @@ const Home: NextPage = () => {
         <title>Главная</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="">test</div>
+      <main className="">
+        <div className="h-screen bg-neutral-900">
+          <div className="">
+            <h1 className="heading">
+              Совершенно новый поход к скриптам в играх.
+            </h1>
+          </div>
+        </div>
+      </main>
     </>
   )
 }

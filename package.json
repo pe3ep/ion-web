@@ -1,4 +1,7 @@
 {
+  "name": "ion-web",
+  "author": "Pe3ep",
+  "version": "0.02d",
   "private": true,
   "scripts": {
     "dev": "next dev",
