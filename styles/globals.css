@@ -7,10 +7,15 @@
 }
 
 .button {
-  @apply rounded-md bg-white px-6 py-2 font-manrope text-xl font-extrabold text-black transition-colors hover:bg-blue-600
-  hover:text-white;
+  @apply rounded-md bg-black px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600 hover:text-white dark:bg-white
+  dark:text-black;
 }
 
 .button-accent {
-  @apply rounded-md bg-black px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600;
+  @apply rounded-md bg-blue-500 px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700;
+}
+
+/* Dark theme customisation */
+.dark {
+  @apply bg-neutral-900;
 }
