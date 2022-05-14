@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 .heading {
-  @apply font-manrope text-6xl font-extrabold text-black dark:text-white;
+  @apply font-manrope font-extrabold text-black dark:text-white;
 }
 
 .button {
-  @apply rounded-md bg-black px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600 hover:text-white dark:bg-white
-  dark:text-black;
+  @apply flex items-center justify-center gap-2 rounded-md bg-black px-6 py-2 font-manrope text-xl font-extrabold text-white
+  transition-colors
+  hover:bg-blue-600 hover:text-white dark:bg-white dark:text-black;
 }
 
 .button-accent {
-  @apply rounded-md bg-blue-500 px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700;
+  @apply flex items-center justify-center gap-2 rounded-md bg-blue-500 px-6 py-2 font-manrope text-xl font-extrabold text-white transition-colors hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700;
 }
 
 /* Dark theme customisation */
