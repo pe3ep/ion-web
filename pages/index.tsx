@@ -24,14 +24,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="grid min-h-[calc(100vh-136px)] place-items-center bg-zinc-900 px-3 pt-32 pb-24 lg:pt-64 lg:pb-48">
+      <header className="grid min-h-[calc(100vh-136px)] place-items-center bg-zinc-900 px-3 pt-32 pb-24 lg:pt-64 lg:pb-48">
         <div className="flex flex-col items-center gap-6">
           <Image src="/logo.svg" height="124" width="124" />
 
           <h1 className="heading text-center text-4xl">
             Новый подход к скриптам в играх.
           </h1>
-          <div className="flex flex-col items-center justify-center gap-2">
+          <div className="flex flex-col items-center justify-center gap-2 md:flex-row">
             <Link href="/download">
               <a>
                 <Button>
@@ -70,8 +70,11 @@ const Home: NextPage = () => {
             </a>
           </div>
         </div>
-      </main>
+      </header>
       <div className="h-12"></div>
+      <main>
+        <div className=""></div>
+      </main>
     </>
   )
 }
