@@ -1,8 +1,9 @@
 {
   "name": "ion-web",
   "author": "Pe3ep",
-  "version": "0.02d",
-  "private": true,
+  "version": "0.07d",
+  "private": false,
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
